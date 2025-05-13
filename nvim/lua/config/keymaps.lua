@@ -5,9 +5,6 @@ local opts = { noremap = true, silent = true }
 -- Key mapping function
 local keymap = vim.api.nvim_set_keymap
 
--- Set the leader key to spacebar
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
 
 -- Resize with arrows
 keymap("n", "<C-j>", ":resize +2<CR>", opts)

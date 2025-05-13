@@ -7,9 +7,6 @@ fn - e : yabai -m window --toggle split
 # close window
 fn - w : yabai -m window --close
 
-# minimize window
-fn - m : yabai -m window --minimize
-
 # Navigation
 fn - h : yabai -m window --focus west
 fn - j : yabai -m window --focus south
@@ -26,13 +23,6 @@ fn + alt - l : yabai -m window --swap east  || $(yabai -m window --display east;
 # Manage displays
 fn + alt - m: yabai -m display --focus recent
 
-# Manage spaces
-fn + shift - t: yabai -m space --create
-fn + shift - w: yabai -m space --destroy
-
-fn + shift - l: yabai -m space --focus next
-fn + shift - h: yabai -m space --move prev 
-
 
 # Resize windows
 cmd + fn - h : yabai -m window --resize left:-50:0; \
@@ -46,7 +36,7 @@ cmd + fn - l : yabai -m window --resize right:50:0; \
 
 # Applications
 cmd - return: /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+fn - c: /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
+fn - z: /Applications/Spotify.app/Contents/MacOS/Spotify
+fn - s: /Applications/Slack.app/Contents/MacOS/Slack
 
-fn - c : /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
-
-fn - s : /Applications/Spotify.app/Contents/MacOS/Spotify

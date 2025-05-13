@@ -10,6 +10,10 @@
                     },
                     "simple_modifications": [
                         {
+                            "from": { "key_code": "application" },
+                            "to": [{ "key_code": "left_control" }]
+                        },
+                        {
                             "from": { "key_code": "caps_lock" },
                             "to": [{ "key_code": "escape" }]
                         },
@@ -30,11 +34,40 @@
                             "to": [{ "key_code": "left_control" }]
                         },
                         {
-                            "from": { "key_code": "application" },
+                            "from": { "key_code": "right_gui" },
                             "to": [{ "key_code": "left_control" }]
+                        }
+                    ]
+                },
+                {
+                    "identifiers": { "is_keyboard": true },
+                    "simple_modifications": [
+                        {
+                            "from": { "key_code": "caps_lock" },
+                            "to": [{ "key_code": "escape" }]
+                        },
+                        {
+                            "from": { "key_code": "escape" },
+                            "to": [{ "key_code": "caps_lock" }]
+                        },
+                        {
+                            "from": { "apple_vendor_top_case_key_code": "keyboard_fn" },
+                            "to": [{ "key_code": "left_gui" }]
+                        },
+                        {
+                            "from": { "key_code": "left_control" },
+                            "to": [{ "apple_vendor_top_case_key_code": "keyboard_fn" }]
+                        },
+                        {
+                            "from": { "key_code": "left_gui" },
+                            "to": [{ "key_code": "left_option" }]
                         },
                         {
                             "from": { "key_code": "right_gui" },
+                            "to": [{ "key_code": "left_control" }]
+                        },
+                        {
+                            "from": { "key_code": "right_alt" },
                             "to": [{ "key_code": "left_control" }]
                         }
                     ]
