@@ -26,4 +26,6 @@ keymap("v", ">", ">gv", opts)
 -- Telescope key mappings
 keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
 keymap("n", "<leader>fg", ":Telescope live_grep<CR>", opts)
+keymap("n", '<leader>ag', ':Gen<CR>', opts)
+keymap("v", '<leader>ag', ':Gen<CR>', opts)
 
